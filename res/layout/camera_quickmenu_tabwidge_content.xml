@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Acer, Inc. All Rights Reserved.
+
+     This program is an unpublished copyrighted work which is proprietary
+     to Acer, Inc. and contains confidential information that is not to
+     be reproduced or disclosed to any other person or entity without
+     prior written consent from Acer, Inc. in each and every instance.
+
+     WARNING:  Unauthorized reproduction of this program as well as
+     unauthorized preparation of derivative works based upon the
+     program or distribution of copies by sale, rental, lease or
+     lending are violations of federal copyright laws and state trade
+     secret laws, punishable by civil and criminal penalties.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <ImageView
+        android:id="@+id/quick_menu_tab_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+    <ImageView
+        android:id="@+id/quick_menu_tab_highlight"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>
